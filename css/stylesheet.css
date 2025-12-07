@@ -474,6 +474,7 @@ h3 { font-size: var(--fs-h3) }
 /* Threads App, Tic Tac Toe Game, Weather App Layout */
 
 .section-threads-app,
+.section-saas-app,
 .section-tic-tac-toe-game,
 .section-weather-app {
     margin: 50px auto;
@@ -481,6 +482,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .section-title-threads-app::after,
+.section-title-saas-app::after,
 .section-title-tic-tac-toe-game::after,
 .section-title-weather-app::after {
     content: "";
@@ -492,6 +494,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .section-subtitle-threads-app,
+.section-subtitle-saas-app,
 .section-subtitle-tic-tac-toe-game,
 .section-subtitle-weather-app {
     margin-bottom: 50px;
@@ -535,6 +538,7 @@ h3 { font-size: var(--fs-h3) }
 
 @media (min-width: 300px) and (max-width: 800px){
     .section-threads-app,
+    .section-saas-app,
     .section-tic-tac-toe-game,
     .section-weather-app {
         margin: 0 auto; 
@@ -564,6 +568,10 @@ h3 { font-size: var(--fs-h3) }
     }
 
     .project-links-weather-app {
+        display: block;
+    }
+
+    .project-links-saas-app {
         display: block;
     }
 
@@ -612,6 +620,7 @@ h3 { font-size: var(--fs-h3) }
 
 @media (min-width: 1280px) {
     .section-threads-app,
+    .section-saas-app,
     .section-tic-tac-toe-game,
     .section-weather-app {
         padding-top: 10em;
@@ -624,18 +633,21 @@ h3 { font-size: var(--fs-h3) }
     }
 
     .section-title-threads-app,
+    .section-title-saas-app,
     .section-title-tic-tac-toe-game,
     .section-title-weather-app {
         margin-bottom: 10px;
     }
 
     .section-subtitle-threads-app,
+    .section-subtitle-saas-app,
     .section-subtitle-tic-tac-toe-game,
     .section-subtitle-weather-app {
         margin-bottom: 100px;
     }
 
     .section-body-threads-app,
+    .section-body-saas-app,
     .section-body-tic-tac-toe-game,
     .section-body-weather-app {
         display: grid;
